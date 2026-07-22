@@ -1,4 +1,6 @@
-# LiteRT
+# LiteRT for SCOM DAG paper 
+
+https://dl.acm.org/doi/10.1145/3811365?__cf_chl_f_tk=dvh7u1u9JKqnn.GzyQ62MQoyqfpK1kKID6d.yeV5Uf4-1783077354-1.0.1.1-8ZhrEoEAxIQIz_X5u5vxY3RYeuM9YHTXr.CIM1t_OIg 
 
 LiteRT is main repository of graphics group if the GML lab.
 In consists of main (LiteRT) project and several others:
