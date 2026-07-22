@@ -95,19 +95,6 @@ For GPU with RTX support (tested only on Nvidia RTX GPUs):
 
 Howto point kslicer path: -DKSLICER_PATH="kernel_slicer/cmake-build-release/kslicer" -DKSLICER_DIR="kernel_slicer"
 
-### Build (GPU/WebGPU)
-#### Native
-    cmake -S . -B build_release -DCMAKE_BUILD_TYPE=Release -DUSE_VULKAN=OFF -DUSE_GPU_RQ=OFF -DUSE_WEBGPU=ON -DWEBGPU_BUILD_FROM_SOURCE=OFF -DWEBGPU_BACKEND=WGPU
-
-Dawn
-
-    cmake -S . -B build_release -DCMAKE_BUILD_TYPE=Release -DUSE_VULKAN=OFF -DUSE_GPU_RQ=OFF -DUSE_WEBGPU=ON -DWEBGPU_BUILD_FROM_SOURCE=OFF -DWEBGPU_BACKEND=DAWN
-
-## Build (Windows)
-
-Build with CMake is mostly the similar, Visual Studio build is not supported
-TODO
-
 ## Launch
 
 ### Demo application (only with GPU support)
